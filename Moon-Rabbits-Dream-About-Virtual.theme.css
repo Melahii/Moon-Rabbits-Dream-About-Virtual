@@ -24,16 +24,13 @@
                         Custom Settings
 ---------------------------------------------------------------*/
 
-/* Animate the background */
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-animation.css');
 
-/* Add transparency for background images */
-/* @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-image.css'); */
+@import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/background-image.css'); */
 
 /* Pop Effect */
 @import url("https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/pop.css");
 
-/* Reverse the position of Server list and members */
 @import url('https://zuzumi-f.github.io/Moon-Rabbits-Dream-About-Virtual/release/reverse.css');
 
 /*------------------------------------------------------
@@ -41,19 +38,19 @@
 ------------------------------------------------------*/
 :root {
     /* The text that appear in top, leave it blank ("") if you dont want any */
-    --custom-text: "TSUKINO MITO";
+    --custom-text: "";
 
     /* General Colors */
-    --border-color: #da4a60;
-    --drag-gradient1: #e8c4d3;
-    --drag-gradient2: #e39ba7;
-    --name-bg: #d95b72;
+    --border-color: #50641f;
+    --drag-gradient1: #cfe8c4;
+    --drag-gradient2: #79b06c;
+    --name-bg: #d1d95b;
 
     /* Background Colors & BG Image */
-    --bg-gradient1: #e297b2;
-    --bg-gradient2: #c0b4d5;
-    --bg-gradient3: #54b5de;
-    --bg-image: none; /* Write the image url, example url("your url") [none is default]*/
+    --bg-gradient1: #77c4c1;
+    --bg-gradient2: #eee1a9;
+    --bg-gradient3: #e78f7e;
+    --bg-image: ("https://i.pinimg.com/originals/72/cc/f4/72ccf44ad0ab641a70facb8edb3fbcc2.gif");
     --opacity: 0; /* Value in numbers from 0 to 1, but there is a limit */
     --bg-blur: 6px; /* Value in px */
 
